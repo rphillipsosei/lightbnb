@@ -16,7 +16,7 @@ VALUES ('Perfect getaway', 'A perfect getaway for you and your family', 4366, '/
 '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 9900, 3, 1, 4, false, "Ontario", "Toronto", "Canada", "Oain Street", "M1A2B3"),
  ('Paradise in a home', 'A paradise for you and your family', 7373, '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350',
 '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 6794, 3, 3, 5, false, "Ontario", "Toronto", "Canada", "Pain Street", "M1A2B3"),
- ('A perfect getaway', 'The perfect getaway for you and your family', 1356, , '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350',
+ ('A perfect getaway', 'The perfect getaway for you and your family', 1356, '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350',
 '//images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 4795, 1, 1, 1, false, "Ontario", "Toronto", "Canada", "Qain Street", "M1A2B3");
 
 INSERT INTO reservations (id, guest_id, property_id, start_date, end_date)
@@ -29,10 +29,10 @@ VALUES (1, 434, 8946010, '2018-09-11', '2018-09-26'),
 
  INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
  
- VALUES (589, 8946010, 1, 3, message),
-(434, 4756434, 4, 2, message),
-(561, 7756434, 4, 3, message),
-(886, 5412445, 4, 4, message),
-(367, 4653432, 4, 5, message);
+ VALUES (589, 8946010, 1, 3, 'message'),
+(434, 4756434, 4, 2, 'message'),
+(561, 7756434, 4, 3, 'message'),
+(886, 5412445, 4, 4, 'message'),
+(367, 7756434, 4, 5, 'message');
 
 
